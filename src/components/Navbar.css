@@ -1,0 +1,65 @@
+/* NewNavbar.css */
+
+body,
+html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  background: #000;
+}
+
+nav {
+  height: 80px; /* Adjusted height */
+  background-color: #F76902; /* Changed background color */
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0 20px;
+  overflow: hidden; /* Clear floats */
+}
+
+.logo {
+  float: left; /* Align logo to the left */
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px; 
+  font-size: 18px; 
+  align-items: center;
+  margin-top: 25px;
+}
+
+.nav-links {
+  float: right; /* Align links to the right */
+  margin-top: 25px; /* Adjust vertical alignment */
+  margin-right: 75px;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px; /* Adjust spacing between links */
+  transition: color 0.3s ease; /* Add transition for color change */
+}
+
+.nav-links a:hover {
+  color: #000; /* Change color to black on hover */
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}

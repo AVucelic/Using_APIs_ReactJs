@@ -1,0 +1,55 @@
+.footer {
+    background: #F76902;
+    padding: 1px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer .flex {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.3% 0%;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.footer .flex a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer .flex a:hover {
+    color: #000000;
+}
+
+.footer .flex ul {
+    width: 100%;
+}
+
+.footer .flex ul li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.footer .flex a i {
+    font-size: 3em;
+    margin: 0% 1%;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .flex ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .flex a i {
+        margin: 0% 3%;
+    }
+}
